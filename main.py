@@ -50,13 +50,13 @@ while not won:
         break
 
 if won:
-    print("We have a winning ticket!")
+    print("We have a winning ticket! :D")
     print(f"Your ticket: {new_ticket}")
     print(f"Winning ticket: {winning_ticket}")
     print(f"It only took {plays} tries to win!")
 else:
     print(f"Tried {plays} times, without pulling a winner. :(")
-    print(f"Your ticket: {new_ticket}")
+    print(f"Your final ticket: {new_ticket}")
     print(f"Winning ticket: {winning_ticket}")
 
     
